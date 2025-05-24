@@ -1,7 +1,7 @@
 baseurl = "https://eclipse.dev/hugo-eclipsefdn-website-boilerplate"
 DefaultContentLanguage = "en"
 title = "The Community for Open Innovation and Collaboration"
-theme = "hugo-solstice-theme"
+theme = ["wisteria", "hugo-solstice-theme"]
 metaDataFormat = "yaml"
 disableKinds = []
 enableRobotsTXT = true
