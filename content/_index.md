@@ -1,24 +1,35 @@
 ---
-title: "hugo-eclipsefdn-website-boilerplate"
-date: 2020-03-01T16:09:45-04:00
-#headline: "The Community for Open Innovation and Collaboration"
-#tagline: "The Eclipse Foundation provides our global community of individuals and organizations with a mature, scalable, and business-friendly environment for open source software collaboration and innovation."
+title: "Eclipse Readability Studio - Home"
+date: 2025-02-22
+headline: "Eclipse Readability Studio"
+tagline: "All you need for readability analysis"
 hide_page_title: true
-#hide_sidebar: true
-#hide_breadcrumb: true
-#show_featured_story: true
-#layout: "single"
-#links: [[href: "/projects/", text: "Projects"],[href: "/org/workinggroups/", text: "Working Group"],[href: "/membership/", text: "Members"],[href: "/org/value", text: "Business Value"]]
-#container: "container-fluid"
+hide_sidebar: true
+hide_breadcrumb: true
+show_featured_story: false
+show_featured_footer: false
+links: [[href: "download/", text: "Download"]]
 ---
 
-# hugo-eclipsefdn-website-boilerplate
+## About
 
-The hugo-eclipsefdn-website-boilerplate project is available under the EPL-v2. 
+*Readability Studio*&reg; is the premier software for readability analysis, and is now free and open source!
 
-Currently the project is maintained by the Eclipse Foundation web development team, but like other projects under the Eclipse Foundation umbrella is open to community input and development.
+*Readability Studio* simplifies performing readability tests, along with offering explanations of their results.
+These tests will provide your documents’ reading levels, while also including recommendations for how to improve them.
+Over sixty of the most popular English, Spanish, and German are available to choose from.
 
-{{< starterkit/example >}}
+{{< carousel fit="cover" arrow-color="white" data="carousel"
+    justifications="flex-end|flex-start|flex-start|flex-start|flex-start"
+    horizontal-placements="|flex-end|flex-start|flex-start|"
+    text-colors="white|white|white|white|white"
+    shadow-colors="black|black|black|black|black"
+    headlines="Tools for educators|Tools for military and government|Tools for healthcare|Tools for publishers|Tools for students"
+    learn-mores="educators|government|healthcare|publishing|students"
+    content="Find the right reading materials for your students|Meet publication guidelines with your forms and instructions|Ensure that your consent forms and instructions are patient ready|Meet your audiences' reading levels with your publications|Enforce quality requirements on your essays and research papers">}}
 
-For more information, see our documentation for the [hugo-solstice-theme](https://webdev.eclipse.org/docs/hugo/).
+## News {{< fa icon="fa fa-newspaper-o " >}}
 
+{{< news-section >}}
+    {{< news-item headline="New Release" content="Coming soon..." date="2025-05-31" >}}
+{{< /news-section >}}

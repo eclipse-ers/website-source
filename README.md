@@ -112,3 +112,18 @@ Have a bug or a feature request? Please search for existing and closed issues. I
 ## Copyright and license
 
 Copyright 2021 the [Eclipse Foundation, Inc.](https://www.eclipse.org) and the [hugo-eclipsefdn-website-boilerplate authors](https://gitlab.eclipse.org/eclipsefdn/it/webdev/hugo-eclipsefdn-website-boilerplate/-/graphs/main). Code released under the [Eclipse Public License Version 2.0 (EPL-2.0)](https://gitlab.eclipse.org/eclipsefdn/it/webdev/hugo-eclipsefdn-website-boilerplate/-/blob/main/LICENSE).
+
+## Artwork
+
+Photo by <a href="https://unsplash.com/@cdc?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">CDC</a> on <a href="https://unsplash.com/photos/boy-in-green-sweater-writing-on-white-paper-GDokEYnOfnE?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+
+Photo by <a href="https://unsplash.com/@kellysikkema?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Kelly Sikkema</a> on <a href="https://unsplash.com/photos/white-printed-paper-8DEDp6S93Po?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+
+Photo by <a href="https://unsplash.com/@chuttersnap?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">CHUTTERSNAP</a> on <a href="https://unsplash.com/photos/books-on-shelf-NELuniToBt4?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+
+Photo by <a href="https://unsplash.com/@gunnarridder?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Gunnar Ridderström</a> on <a href="https://unsplash.com/photos/brown-wooden-building-with-white-and-black-table-and-chairs-WRjj7jjL_80?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+
+
+Photo by <a href="https://unsplash.com/@zoshuacolah?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Zoshua Colah</a> on <a href="https://unsplash.com/photos/student-studies-at-a-library-with-books-klbApl9mxr0?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+
+Photo by <a href="https://unsplash.com/@nci?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">National Cancer Institute</a> on <a href="https://unsplash.com/photos/woman-standing-infront-of-computer-9aaOSvWEBTw?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
