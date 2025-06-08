@@ -1,5 +1,5 @@
 ---
-title: "Contact"
+title: "About"
 date: 2025-03-08
 hide_page_title: true
 hide_sidebar: true
