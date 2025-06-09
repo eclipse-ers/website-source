@@ -1,4 +1,4 @@
-baseurl = "https://eclipse.dev/ers"
+baseurl = "https://eclipse.dev/ers/"
 DefaultContentLanguage = "en"
 title = "Readability Analysis Software"
 theme = ["wisteria", "hugo-solstice-theme"]
