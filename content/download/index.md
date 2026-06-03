@@ -12,7 +12,7 @@ show_featured_footer: false
 
 #### {{< fa icon = "fa fa-windows" >}} Windows
 
-Coming soon...
+{{< highlight-button class = "white-background" icon = "fa fa-download" label = "Download Installer" link = "https://github.com/eclipse-ers/ReadabilityStudio/releases/download/v2026/ers-setup.exe" >}}
 
 #### {{< fa icon = "fa fa-apple" >}} macOS
 
@@ -20,7 +20,7 @@ Coming soon...
 
 #### {{< fa icon = "fa fa-linux" >}} Linux
 
-Coming soon...
+{{< highlight-button class = "white-background" icon = "fa fa-download" label = "Download AppImage (x86_64)" link = "https://github.com/eclipse-ers/ReadabilityStudio/releases/download/v2026/Readability_Studio-x86_64.AppImage" >}}
 
 #### {{< fa icon = "fa fa-file-code-o" >}} Source Code
 
