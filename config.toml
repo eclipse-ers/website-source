@@ -2,7 +2,6 @@ baseurl = "https://eclipse.dev/ers/"
 DefaultContentLanguage = "en"
 title = "Readability Analysis Software"
 theme = ["wisteria", "hugo-solstice-theme"]
-metaDataFormat = "yaml"
 disableKinds = []
 enableRobotsTXT = true
 pluralizeListTitles = false
@@ -27,9 +26,6 @@ pluralizeListTitles = false
   share_img = "images/app-logo.png"
 # js = ""
 # styles = ""
-# logo = ""
-# favicon = ""
-# share_img = ""
 # logo_width = ""
 # header_left_classes = ""
 # main_menu_wrapper_classes = ""
@@ -54,37 +50,6 @@ pluralizeListTitles = false
 
 [permalinks]
   news = "/:sections/:year/:month/:day/:slug/"
-
-[blackfriday]
-  plainIDAnchors = true
-  hrefTargetBlank = true
-
-[[menu.sidebar]]
-  name = "Documentation"
-  url = "/home"
-  weight = 1
-  identifier = "home"
-
-[[menu.sidebar]]
-  parent ="home"
-  name = "hugo-solstice-theme"
-  url = "https://webdev.eclipse.org/docs/hugo/"
-  weight = 1
-  pre = "<i class=\"fa fa-caret-right fa-fw\"></i>"
-
-[[menu.sidebar]]
-  parent ="home"
-  name = "Solstice"
-  url = "https://www.eclipse.org/eclipse.org-common/themes/solstice/docs/"
-  weight = 2
-  pre = "<i class=\"fa fa-caret-right fa-fw\"></i>"
-
-[[menu.sidebar]]
-  parent ="home"
-  name = "Hugo"
-  url = "https://gohugo.io/documentation/"
-  weight = 3
-  pre = "<i class=\"fa fa-caret-right fa-fw\"></i>"
 
 # Uncomment [[menu.main]] to hide the default EF menu
 # or to define your own menu links.
