@@ -1,0 +1,17 @@
+{{ $headline := (.Get "headline" | safeHTML) }}
+{{ $content := (.Get "content" | safeHTML) }}
+{{ $image := (.Get "image") }}
+{{ $link := (.Get "link") }}
+{{ $alt := or (.Get "alt") $headline }}
+
+<div class="image-card">
+  <div class="image-card-image">
+    <a href="{{ $link }}" target="_blank" rel="noopener noreferrer">
+      <img src="{{ $image }}" alt="{{ $alt }}" class="img-responsive img-shadow">
+    </a>
+  </div>
+  <div class="image-card-content">
+    {{ if len $headline }}<h3>{{ $headline }}</h3>{{ end }}
+    <p>{{ $content }}</p>
+  </div>
+</div>

@@ -5,7 +5,7 @@
 {{ $icon := (.Get "icon") }}
 {{ $color := or (.Get "color") "black" }}
 
-<a href='{{ $link }}' style="text-decoration: none; padding: 20px 0 0 0;">
+<a href='{{ $link }}' target="_blank" rel="noopener noreferrer" style="text-decoration: none; padding: 20px 0 0 0;">
   <div class="highlight-button {{ $class }}">
   {{ if len $icon }}
   <i class="{{ $icon }}" style="color: {{ $color }}"></i>
