@@ -15,6 +15,6 @@ From academia, hospitals, insurance companies, and publishing houses, our softwa
 
 In 2025, *Readability Studio* found its new home within the Eclipse Foundation, where it is now free and open source.
 
-### Issues
+### Issues & Requests
 
 To report an issue or request a feature, please visit our [Issue Tracker](https://github.com/eclipse-ers/ReadabilityStudio/issues).
