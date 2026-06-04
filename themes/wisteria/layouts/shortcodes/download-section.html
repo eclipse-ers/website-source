@@ -1,3 +1,6 @@
+{{ $icon := (.Get "icon") }}
+{{ $heading := (.Get "heading") }}
 <div class="download-section">
-{{ .Inner | markdownify }}
+  <h4>{{ with $icon }}<i class="{{ . }}"></i> {{ end }}{{ $heading }}</h4>
+  {{ .Inner }}
 </div>
