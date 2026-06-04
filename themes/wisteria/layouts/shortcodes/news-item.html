@@ -5,5 +5,5 @@
 <div class="news-item">
 <div class="news-headline">{{ $headline }}</div>
 <div>{{ time.Format ":date_long" $date }}</div>
-<div style="padding 5px 0 0 0">{{ $content }}</div>
+<div style="padding: 5px 0 0 0">{{ $content | markdownify }}</div>
 </div>
