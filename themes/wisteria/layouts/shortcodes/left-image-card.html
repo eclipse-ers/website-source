@@ -3,22 +3,23 @@
 {{ $image := (.Get "image") }}
 {{ $style := or (.Get "style") "shadow" }}
 {{ $learnMoreLink := or (.Get "learn-more") "" }}
+{{ $alt := or (.Get "alt") (.Get "headline") }}
 
 <div class="image-card">
   <div class="image-card-image">
 
     {{ if eq $style "none" }}
       <a href="{{ $image }}" data-lightbox="{{ .Get "lightbox-id" }}" data-title="{{ .Get "lightbox-caption" }}">
-      <img src="{{ $image }}" alt="{{ (.Get "alt") }}" class="img-responsive">
+      <img src="{{ $image }}" alt="{{ $alt }}" class="img-responsive">
       </a>
     {{ else if eq $style "shadow" }}
       <a href="{{ $image }}" data-lightbox="{{ .Get "lightbox-id" }}" data-title="{{ .Get "lightbox-caption" }}">
-      <img src="{{ $image }}" alt="{{ (.Get "alt") }}" class="img-responsive img-shadow">
+      <img src="{{ $image }}" alt="{{ $alt }}" class="img-responsive img-shadow">
       </a>
     {{ else if eq $style "banner" }}
       <div class="image-card-dark-image img-responsive" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url({{ $image | absURL }});">
         <div class="hero-text">
-          <h1 style="font-size:50px">{{ $headline }}</h1>
+          <h2 class="hero-heading">{{ $headline }}</h2>
         </div>
       </div>
     {{end}}
