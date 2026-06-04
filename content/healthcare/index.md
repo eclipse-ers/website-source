@@ -12,7 +12,7 @@ show_featured_footer: false
 
 ### Features for Healthcare
 
-From insurance forms to prescription instructions, healthcare workers have a large array of literature that they must deal with everyday.
+From insurance forms to prescription instructions, healthcare workers have a large array of literature that they must deal with every day.
 Determining whether these documents are too difficult for your patients to read is vital.
 To assist with this, *Readability Studio* provides your patient materials' reading levels and recommends areas of improvement.
 
@@ -23,7 +23,7 @@ To assist with this, *Readability Studio* provides your patient materials' readi
 
 {{< right-image-card
     lightbox-id="familiar-words-test-img" lightbox-caption="Familiar words"
-    headline="Familiar words" content="Likewise, you can create custom versions of familiar-word tests (e.g., New Dale Chall) and append your own words to it. This will create a test that is designed specifically for patients familiar with certain medical terms."
+    headline="Familiar words" content="Likewise, you can create custom versions of familiar-word tests (e.g., New Dale-Chall) and append your own words to it. This will create a test that is designed specifically for patients familiar with certain medical terms."
     image="../images/custom-test-example2-formula-finished.png" >}}
 
 {{< left-image-card
@@ -43,7 +43,7 @@ To assist with this, *Readability Studio* provides your patient materials' readi
 
 {{< right-image-card
     lightbox-id="doc-support-img" lightbox-caption="Publishing"
-    headline="Publishing" content="Printing and exporting capabilities for all test scores, word lists, statistics, graphs, etc are provided. This enables you to easily share and publish your results"
+    headline="Publishing" content="Printing and exporting capabilities for all test scores, word lists, statistics, graphs, etc., are provided. This enables you to easily share and publish your results."
     image="../images/exportoptions.png" >}}
 
 {{< left-image-card

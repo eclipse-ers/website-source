@@ -12,7 +12,7 @@ show_featured_footer: false
 
 ### Features for Students
 
-From homework essays to graduate student research, *Readability Studio* offers tools you need to ensure the quality of your work.
+From homework essays to graduate student research, *Readability Studio* offers the tools you need to ensure the quality of your work.
 
 {{< left-image-card
     lightbox-id="test-recommendations-img" lightbox-caption="Test recommendations"
@@ -31,7 +31,7 @@ From homework essays to graduate student research, *Readability Studio* offers t
 
 {{< right-image-card
     lightbox-id="doc-support-img" lightbox-caption="Publishing"
-    headline="Publishing" content="Printing and exporting capabilities for all test scores, word lists, statistics, graphs, etc are provided. This enables you to easily share and publish your results"
+    headline="Publishing" content="Printing and exporting capabilities for all test scores, word lists, statistics, graphs, etc., are provided. This enables you to easily share and publish your results."
     image="../images/exportoptions.png" >}}
 
 {{< left-image-card
@@ -41,7 +41,7 @@ From homework essays to graduate student research, *Readability Studio* offers t
 
 {{< right-image-card
     lightbox-id="tests-img" lightbox-caption="Tests guidance"
-    headline="Test guidance" content="In-depth explanations for each test is provided. Test results include an interpretation of the score and the factors that affect it."
+    headline="Test guidance" content="In-depth explanations for each test are provided. Test results include an interpretation of the score and the factors that affect it."
     image="../images/testscores.png" >}}
 
 {{< left-image-card

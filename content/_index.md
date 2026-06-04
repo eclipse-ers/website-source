@@ -16,8 +16,8 @@ links: [[href: "download/", text: "Download"]]
 *Readability Studio*&reg; is the premier software for readability analysis, and is now free and open source!
 
 *Readability Studio* simplifies performing readability tests, along with offering explanations of their results.
-These tests will provide your documents’ reading levels, while also including recommendations for how to improve them.
-Over sixty of the most popular English, Spanish, and German are available to choose from.
+These tests will provide your documents' reading levels, while also including recommendations for how to improve them.
+Over sixty of the most popular English, Spanish, and German tests are available to choose from.
 
 {{< carousel fit="cover" arrow-color="white" data="carousel"
     justifications="flex-end|flex-start|flex-start|flex-start|flex-start"

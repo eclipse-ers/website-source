@@ -12,8 +12,8 @@ show_featured_footer: false
 
 ### Features for Publishers
 
-To remain competitive in today's market, publishers must be certain that their materials' reading level is meeting their respective target audiences.
-If articles are written with overly long sentences and unnecessarily complex words, then perspective readers are going to lose interest very quickly.
+To remain competitive in today's market, publishers must be certain that their materials' reading level is appropriate for their respective target audiences.
+If articles are written with overly long sentences and unnecessarily complex words, then prospective readers are going to lose interest very quickly.
 With *Readability Studio*, you have the tools to determine the reading level of your articles, as well as tools to make them easier to read.
 
 {{< left-image-card
@@ -33,7 +33,7 @@ With *Readability Studio*, you have the tools to determine the reading level of 
 
 {{< right-image-card
     lightbox-id="tests-img" lightbox-caption="Tests guidance"
-    headline="Test guidance" content="In-depth explanations for each test is provided. Test results include an interpretation of the score and the factors that affect it."
+    headline="Test guidance" content="In-depth explanations for each test are provided. Test results include an interpretation of the score and the factors that affect it."
     image="../images/testscores.png" >}}
 
 {{< left-image-card

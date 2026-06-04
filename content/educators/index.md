@@ -14,7 +14,7 @@ show_featured_footer: false
 
 Choosing the right materials for your students can be an arduous task.
 This is especially true when determining whether these learning materials are too difficult to read.
-With *Readability Studio*, you can determine the reading level of your materials, as well as guidance to make them easier to read.
+With *Readability Studio*, you can determine the reading level of your materials, as well as receive guidance to make them easier to read.
 
 Tests are also available for determining which materials are a good fit for second-language students.
 Dolch sight words and the McAlpine EFLAW&reg; test are provided for both young English and ESL (English as a Second Language) readers.

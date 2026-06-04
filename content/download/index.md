@@ -25,9 +25,9 @@ Coming soon...
 #### {{< fa icon = "fa fa-file-code-o" >}} Source Code
 
 *Readability Studio* is a free and open source application.
-You are free to study, modify, and distribute it under Eclipse Public License.
+You are free to study, modify, and distribute it under the Eclipse Public License.
 
-{{< highlight-button class = "white-background" icon = "fa fa-github" label = "Github" link = "https://github.com/eclipse-ers/ReadabilityStudio" >}}
+{{< highlight-button class = "white-background" icon = "fa fa-github" label = "GitHub" link = "https://github.com/eclipse-ers/ReadabilityStudio" >}}
 
 {{< vertical-spacer >}}
 
