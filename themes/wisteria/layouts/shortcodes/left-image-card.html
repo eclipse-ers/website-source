@@ -17,11 +17,13 @@
       <img src="{{ $image }}" alt="{{ $alt }}" class="img-responsive img-shadow">
       </a>
     {{ else if eq $style "banner" }}
+      {{ if len $learnMoreLink }}<a href="{{ $learnMoreLink | absURL }}" style="text-decoration: none;" aria-hidden="true" tabindex="-1">{{ end }}
       <div class="image-card-dark-image img-responsive" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url({{ $image | absURL }});">
         <div class="hero-text">
           <h2 class="hero-heading">{{ $headline }}</h2>
         </div>
       </div>
+      {{ if len $learnMoreLink }}</a>{{ end }}
     {{end}}
 
   </div>
