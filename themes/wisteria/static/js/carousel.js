@@ -88,12 +88,12 @@ document.addEventListener('DOMContentLoaded', function() {
       });
 
       //setInterval for autoplay
-      if(carousel.getAttribute('duration')) {
-        setInterval(function(){ 
+      if(carousel.getAttribute('data-duration')) {
+        setInterval(function(){
           if (ele != document.querySelector(".carousel:hover ul") && ele.classList.contains('interacted')==false) {
             nextarrow.click();
           }
-        }, carousel.getAttribute('duration'));
+        }, carousel.getAttribute('data-duration'));
       }
     
     

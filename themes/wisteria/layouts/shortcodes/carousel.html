@@ -11,7 +11,7 @@
 {{ $textColors := split (.Get "text-colors") "|" }}
 {{ $shadowColors := split (.Get "shadow-colors") "|" }}
 
-<div id="carousel{{ .Ordinal }}" class="carousel" duration="{{ $duration }}">
+<div id="carousel{{ .Ordinal }}" class="carousel" data-duration="{{ $duration }}">
     <ul>
       {{- range $index, $slide := .Page.Resources.Match (print (.Get "data") "/*") }}
         {{ $currentJustification := "center" }}
