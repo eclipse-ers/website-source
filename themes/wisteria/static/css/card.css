@@ -66,6 +66,19 @@
   }
 }
 
+.download-section {
+  box-sizing: border-box;
+  border: 2px solid var(--card-dark-color);
+  border-radius: 8px;
+  background: linear-gradient(to right, white, white, rgba(0, 77, 77, .15));
+  padding: 1rem 2rem;
+  margin: 1rem 0;
+}
+
+.download-section h4 {
+  margin-top: 0.5rem;
+}
+
 .highlight-button {
   width: max-content !important;
   border: 2px solid var(--card-light-color);
