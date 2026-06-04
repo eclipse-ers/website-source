@@ -13,7 +13,7 @@ show_featured_footer: false
 #### User Manual
 
 {{< link-image-card
-    image = "https://raw.githubusercontent.com/eclipse-ers/ReadabilityStudio/main/docs/readability-studio-manual/docs-manual/readability-studio-manual-thumb.png"
+    image = "../images/readability-studio-manual-thumb.png"
     link = "https://raw.githubusercontent.com/eclipse-ers/ReadabilityStudio/main/docs/readability-studio-manual/docs-manual/readability-studio-manual.pdf"
     alt = "User Manual"
     content = "The complete <em>Readability Studio</em> documentation—covering the program, readability tests, keyboard shortcuts, and glossaries." >}}
@@ -21,7 +21,7 @@ show_featured_footer: false
 #### Readability Test Reference
 
 {{< link-image-card
-    image = "https://raw.githubusercontent.com/eclipse-ers/ReadabilityStudio/main/docs/readability-test-reference/docs/readability-test-reference-thumb.png"
+    image = "../images/readability-test-reference-thumb.png"
     link = "https://raw.githubusercontent.com/eclipse-ers/ReadabilityStudio/main/docs/readability-test-reference/docs/readability-test-reference.pdf"
     alt = "Readability Test Reference"
     content = "A reference covering the readability tests available in <em>Readability Studio</em>—how each test works and when to use it." >}}
@@ -29,7 +29,7 @@ show_featured_footer: false
 #### Shortcuts Cheatsheet
 
 {{< link-image-card
-    image = "https://raw.githubusercontent.com/eclipse-ers/ReadabilityStudio/main/docs/shortcuts-cheatsheet/docs/shortcuts-cheatsheet-thumb.png"
+    image = "../images/shortcuts-cheatsheet-thumb.png"
     link = "https://raw.githubusercontent.com/eclipse-ers/ReadabilityStudio/main/docs/shortcuts-cheatsheet/docs/shortcuts-cheatsheet.pdf"
     alt = "Shortcuts Cheatsheet"
     content = "A quick-reference guide to <em>Readability Studio</em>'s keyboard shortcuts." >}}
@@ -37,7 +37,7 @@ show_featured_footer: false
 #### System Administrator Manual
 
 {{< link-image-card
-    image = "https://raw.githubusercontent.com/eclipse-ers/ReadabilityStudio/main/docs/sysadmin/docs/sysadmin-manual-thumb.png"
+    image = "../images/sysadmin-manual-thumb.png"
     link = "https://raw.githubusercontent.com/eclipse-ers/ReadabilityStudio/main/docs/sysadmin/docs/sysadmin-manual.pdf"
     alt = "System Administrator Manual"
     content = "A guide for system administrators covering installing and updating <em>Readability Studio</em> deployments, as well as building it from source." >}}
@@ -45,7 +45,7 @@ show_featured_footer: false
 #### Release Notes
 
 {{< link-image-card
-    image = "https://raw.githubusercontent.com/eclipse-ers/ReadabilityStudio/main/docs/release-notes/docs/release-notes-thumb.png"
+    image = "../images/release-notes-thumb.png"
     link = "https://raw.githubusercontent.com/eclipse-ers/ReadabilityStudio/main/docs/release-notes/docs/release-notes.pdf"
     alt = "Release Notes"
     content = "See what's new in the latest version of <em>Readability Studio</em>—new features, improvements, and bug fixes." >}}
