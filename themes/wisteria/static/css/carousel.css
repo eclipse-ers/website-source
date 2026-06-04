@@ -21,3 +21,9 @@
 .carousel ol li.selected a {background: white;}
 .carousel .prev, .carousel .next {display: none; user-select:none; cursor: pointer; font-size: 50px; position: absolute; left: 0; padding: 15px 15px 30px; top: 50%; transform: translateY(-50%); z-index: 9; line-height: 0;}
 .carousel .next {left: auto; right: 0;}
+
+@media screen and (max-width: 700px) {
+  .carousel-text {min-width: 0; width: 100%; padding: 0 20px;}
+  .carousel-headline {font-size: 1.6rem;}
+  .carousel-text-body {font-size: 1.1rem;}
+}
