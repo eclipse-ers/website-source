@@ -6,6 +6,15 @@
     font-weight: 500 !important;
 }
 
+.featured-jumbotron .featured-jumbotron-headline {
+    font-size: clamp(2rem, 7vw, 60px) !important;
+    word-break: break-word;
+}
+
+.featured-jumbotron .featured-jumbotron-tagline {
+    font-size: clamp(1.1rem, 3vw, 1.75rem) !important;
+}
+
 .featured-jumbotron .featured-jumbotron-headline, .featured-jumbotron-tagline  {
     text-shadow: none !important;
     color: white !important;
