@@ -1,6 +1,0 @@
-{{ $icon := (.Get "icon") }}
-{{ $heading := (.Get "heading") }}
-<div class="download-section">
-  <h4>{{ with $icon }}<i class="{{ . }}"></i> {{ end }}{{ $heading }}</h4>
-  {{ .Inner }}
-</div>

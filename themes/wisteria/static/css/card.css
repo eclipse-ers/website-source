@@ -66,17 +66,70 @@
   }
 }
 
-.download-section {
-  box-sizing: border-box;
-  border: 2px solid var(--card-dark-color);
-  border-radius: 8px;
-  background: linear-gradient(to right, white, white, rgba(0, 77, 77, .15));
-  padding: 1rem 2rem;
-  margin: 1rem 0;
+.download-links {
+  list-style: none;
+  padding: 0;
+  margin: 1.5rem 0;
+  display: inline-flex;
+  flex-direction: column;
+  width: fit-content;
 }
 
-.download-section h4 {
-  margin-top: 0.5rem;
+.download-links li {
+  margin: 0;
+  padding: 0;
+}
+
+.download-links li a {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 2.5rem;
+  background: #f0f0f0;
+  border: 1px solid #d0d0d0;
+  color: #333;
+  text-decoration: none;
+  transition: background-color 0.2s ease;
+}
+
+.download-links li:first-child a {
+  border-radius: 8px 8px 0 0;
+}
+
+.download-links li:last-child a {
+  border-radius: 0 0 8px 8px;
+}
+
+.download-links li:not(:last-child) a {
+  border-bottom: none;
+}
+
+.download-links li a:hover {
+  background: #d8d8d8;
+}
+
+.download-links li a i {
+  font-size: 32px;
+  color: #555;
+  width: 32px;
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.download-links li a div {
+  display: flex;
+  flex-direction: column;
+}
+
+.download-links li a div strong {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #222;
+}
+
+.download-links li a div span {
+  font-size: 1.4rem;
+  color: #666;
 }
 
 .highlight-button {
@@ -105,4 +158,19 @@
 
 .white-background:hover {
   background: var(--card-light-color-faded) !important;
+}
+
+.boxed-section {
+  display: inline-block;
+  width: fit-content;
+  background: #fbfbfb;
+  border: 1px solid #f0f0f0;
+  border-radius: 8px;
+  padding: 1.25rem 2rem;
+  margin: 1.5rem 0;
+}
+
+.boxed-section p {
+  margin: 0.35rem 0;
+  color: #555;
 }

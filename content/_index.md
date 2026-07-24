@@ -31,5 +31,5 @@ Over sixty of the most popular English, Spanish, and German tests are available 
 ## News {{< fa icon="fa fa-newspaper-o " >}}
 
 {{< news-section >}}
-    {{< news-item headline="Version 2026 Now Available" content="Readability Studio 2026 is here! [Download](download/) it now for Windows and Linux. A macOS release is coming soon." date="2026-06-03" >}}
+    {{< news-item headline="Version 2026 Now Available" content="Readability Studio 2026 is here! [Download](download/) it now for Windows, macOS, and Linux." date="2026-07-24" >}}
 {{< /news-section >}}

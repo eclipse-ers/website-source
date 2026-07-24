@@ -10,29 +10,20 @@ show_featured_footer: false
 
 ### Download
 
-{{< download-section icon="fa fa-windows" heading="Windows" >}}
-{{< highlight-button class = "white-background" icon = "fa fa-download" label = "Download Installer" link = "https://github.com/eclipse-ers/ReadabilityStudio/releases/download/v2026/ers-setup.exe" >}}
-{{< /download-section >}}
-
-{{< download-section icon="fa fa-apple" heading="macOS" >}}
-<p>Coming soon...</p>
-{{< /download-section >}}
-
-{{< download-section icon="fa fa-linux" heading="Linux" >}}
-{{< highlight-button class = "white-background" icon = "fa fa-download" label = "Download AppImage (x86_64)" link = "https://github.com/eclipse-ers/ReadabilityStudio/releases/download/v2026/Readability_Studio-x86_64.AppImage" >}}
-{{< /download-section >}}
-
-{{< download-section icon="fa fa-file-code-o" heading="Source Code" >}}
-<p><em>Readability Studio</em> is a free and open source application.
-You are free to study, modify, and distribute it under the Eclipse Public License.</p>
-
-{{< highlight-button class = "white-background" icon = "fa fa-github" label = "GitHub" link = "https://github.com/eclipse-ers/ReadabilityStudio" >}}
-{{< /download-section >}}
+{{< download-links >}}
+{{< download-link icon="fa fa-windows" heading="Windows" description="Installer (.exe)" link="https://github.com/eclipse-ers/ReadabilityStudio/releases/download/v2026/ers-setup.exe" >}}
+{{< download-link icon="fa fa-apple" heading="macOS" description="Disk Image (.dmg)" link="https://github.com/eclipse-ers/ReadabilityStudio/releases/download/v2026/ReadabilityStudio.dmg" >}}
+{{< download-link icon="fa fa-linux" heading="Linux — Ubuntu / Debian" description="APT Package (.deb)" link="https://github.com/eclipse-ers/ReadabilityStudio/releases/download/v2026/readstudio_2026.0.1.0_amd64.deb" >}}
+{{< download-link icon="fa fa-linux" heading="Linux — AppImage" description="Portable (x86_64)" link="https://github.com/eclipse-ers/ReadabilityStudio/releases/download/v2026/Readability_Studio-x86_64.AppImage" >}}
+{{< download-link icon="fa fa-github" heading="Source Code" description="View on GitHub" link="https://github.com/eclipse-ers/ReadabilityStudio" >}}
+{{< /download-links >}}
 
 {{< vertical-spacer >}}
 
 ### System Requirements
 
+{{< boxed-section >}}
 **Operating System** : Windows 10 or higher / macOS 10.15 / Linux
 
 **RAM** : 2 GB at minimum required. 4 GB recommended.
+{{< /boxed-section >}}

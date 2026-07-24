@@ -1,0 +1,14 @@
+{{ $link := (.Get "link") }}
+{{ $heading := (.Get "heading") }}
+{{ $description := (.Get "description") }}
+{{ $icon := (.Get "icon") }}
+
+<li>
+  <a href="{{ $link }}" target="_blank" rel="noopener noreferrer">
+    {{ with $icon }}<i class="{{ . }}"></i>{{ end }}
+    <div>
+      <strong>{{ $heading }}</strong>
+      {{ with $description }}<span>{{ . }}</span>{{ end }}
+    </div>
+  </a>
+</li>
